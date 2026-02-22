@@ -106,9 +106,6 @@ Archivo `.env`:
 GOOGLE_API_KEY=tu-clave-de-google
 PINECONE_API_KEY=tu-clave-de-pinecone
 ```
-> El proyecto no funciona sin estas variables correctamente configuradas.
-> - Clave de Google **gratuita** en [Google AI Studio](https://aistudio.google.com/apikey).
-> - Clave de Pinecone **gratuita** en [Pinecone Console](https://app.pinecone.io/).
 
 ## Configuración de Pinecone
 Antes de ejecutar el código, debes crear un índice en tu [consola de Pinecone](https://app.pinecone.io/):
@@ -138,7 +135,8 @@ La respuesta se imprime directamente en consola.
 ## Evidencia de Ejecución
 Ejemplo de salida generada:
 
-![Evidencia de ejecución](img/evidencia.png)
+<img width="1912" height="980" alt="image" src="https://github.com/user-attachments/assets/15655252-72c4-402c-8cff-ebb642f061bd" />
+
 
 ## Conceptos Demostrados
 - **Retrieval-Augmented Generation (RAG)**: Combinar recuperación de información con generación de texto.
